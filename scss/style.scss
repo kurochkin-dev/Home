@@ -1,0 +1,31 @@
+@import "blocks/header";
+@import "blocks/creation";
+
+
+@import "vars";
+@import "libs";
+@import "fonts";
+
+@import "media";
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 1100px;
+}
