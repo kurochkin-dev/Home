@@ -22,4 +22,45 @@
 }
 
 .creation__wrap {
+    display: flex;
+}
+
+
+.img__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    border: 1px solid #E0E0E0;
+    margin: 0;
+    &:before {
+        content:"";
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        border-radius: 100%;
+        width: 90px;
+        height: 90px;
+        border: 1px solid #4985FF;
+        text-align: center;
+    }
+}
+
+.creation__img {
+    float: left;
+    vertical-align: middle;
+}
     
+.creation__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.creation__button {
+    margin: 84px 0 105px 0;
+}
