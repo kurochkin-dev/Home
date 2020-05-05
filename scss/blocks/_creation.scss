@@ -1,5 +1,5 @@
 .creation {
-    height: 700px;
+    height: 760px;
     background: #ffffff;
 }
 
@@ -12,7 +12,7 @@
     color: #323232;
 }
 
-.creation__text {
+.creation__subject {
     padding: 0 0 70px 0;
     font-weight: normal;
     font-size: 16px;
@@ -25,17 +25,18 @@
     display: flex;
 }
 
-
-.img__wrap {
+.creation__item {
     display: flex;
-    align-items: center;
+}
+
+.creation__round {
+    display: flex;
     justify-content: center;
     position: relative;
     width: 110px;
     height: 110px;
     border-radius: 100%;
     border: 1px solid #E0E0E0;
-    margin: 0;
     &:before {
         content:"";
         position: absolute;
@@ -59,8 +60,17 @@
     font-size: 18px;
     line-height: 22px;
     color: #000000;
+    padding: 50px 70px 12px 17px;
+}
+
+.creation__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    padding: 0 0 12px 17px ;
 }
 
 .creation__button {
-    margin: 84px 0 105px 0;
+    margin: 84px 0 100px 0;
 }
