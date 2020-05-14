@@ -1,0 +1,33 @@
+.projects {
+    height: 776px;
+    background: #F6F6F8;
+}
+
+.projects__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    padding: 100px 0 50px 0;
+}
+
+.projects__subject {
+    padding: 0 0 70px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+}
+
+.projects__link {
+    padding: 0 25px 0 0;
+    
+    &:last-child {
+        padding: 0;
+    }
+}
+
+.projects__btn {
+    margin: 50px 0 0 0;
+}

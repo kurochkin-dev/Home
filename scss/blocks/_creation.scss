@@ -1,76 +1,76 @@
 .creation {
-    height: 760px;
-    background: #ffffff;
+  height: 760px;
+  background: #ffffff;
 }
 
 .creation__slogan {
-    padding: 110px 0 50px 0;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 53px;
-    text-align: center;
-    color: #323232;
+  padding: 110px 0 50px 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  color: #323232;
 }
 
 .creation__subject {
-    padding: 0 0 70px 0;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: center;
-    color: #999999;
+  padding: 0 0 70px 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #999999;
 }
 
 .creation__wrap {
-    display: flex;
+  display: flex;
 }
 
 .creation__item {
-    display: flex;
+  display: flex;
 }
 
 .creation__round {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 110px;
-    height: 110px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  border: 1px solid #e0e0e0;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 8px;
     border-radius: 100%;
-    border: 1px solid #E0E0E0;
-    &:before {
-        content:"";
-        position: absolute;
-        top: 8px;
-        left: 8px;
-        border-radius: 100%;
-        width: 90px;
-        height: 90px;
-        border: 1px solid #4985FF;
-        text-align: center;
-    }
+    width: 90px;
+    height: 90px;
+    border: 1px solid #4985ff;
+    text-align: center;
+  }
 }
 
 .creation__img {
-    float: left;
-    vertical-align: middle;
+  float: left;
+  vertical-align: middle;
 }
-    
+
 .creation__title {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    color: #000000;
-    padding: 50px 70px 12px 17px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  padding: 50px 70px 12px 17px;
 }
 
 .creation__text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    color: #999999;
-    padding: 0 0 12px 17px ;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
+  padding: 0 0 12px 17px;
 }
 
 .creation__button {
-    margin: 84px 0 100px 0;
+  margin: 84px 0 100px 0;
 }

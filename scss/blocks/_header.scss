@@ -1,6 +1,6 @@
 .header {
     height: 900px;
-    background: url(../../img/header_bg.jpg) center center/cover no-repeat;
+    background: url(../img/header_bg.jpg) center center/cover no-repeat;
 }
 
 .header__nav {
@@ -14,6 +14,7 @@
 
 .menu__element {
     padding: 40px 40px 40px 0;
+
     &:last-child {
         padding: 40px 405px 40px 0;
     }
@@ -71,7 +72,8 @@
     color: #FFFFFF;
 }
 
-.header__button, .button {
+.header__button,
+.button {
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
@@ -92,4 +94,13 @@
     &:hover {
         background: #4ab3f9;
     }
+}
+
+.video__caption {
+    padding: 35px 0 0 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
 }
